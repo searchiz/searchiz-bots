@@ -11,7 +11,7 @@
   "scripts": { "test": "node --test" },
   "keywords": ["robots.txt", "ai crawlers", "gptbot", "oai-searchbot", "claudebot", "perplexitybot", "geo", "ai search"],
   "homepage": "https://searchiz.com/tools/ai-bot-checker",
-  "repository": { "type": "git", "url": "git+https://github.com/paulopmtl/searchiz-bots.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/searchiz/searchiz-bots.git" },
   "license": "MIT",
   "author": "Searchiz <support@searchiz.com> (https://searchiz.com)"
 }
