@@ -1,0 +1,3 @@
+# Keeps every crawler out, including the ones AI answers rely on.
+User-agent: *
+Disallow: /

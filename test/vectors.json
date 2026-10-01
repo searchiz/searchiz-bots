@@ -1,0 +1,1500 @@
+{
+  "bots": [
+    {
+      "name": "OAI-SearchBot",
+      "owner": "OpenAI",
+      "kind": "search"
+    },
+    {
+      "name": "ChatGPT-User",
+      "owner": "OpenAI",
+      "kind": "agent"
+    },
+    {
+      "name": "GPTBot",
+      "owner": "OpenAI",
+      "kind": "training"
+    },
+    {
+      "name": "Claude-SearchBot",
+      "owner": "Anthropic",
+      "kind": "search"
+    },
+    {
+      "name": "Claude-User",
+      "owner": "Anthropic",
+      "kind": "agent"
+    },
+    {
+      "name": "ClaudeBot",
+      "owner": "Anthropic",
+      "kind": "training"
+    },
+    {
+      "name": "PerplexityBot",
+      "owner": "Perplexity",
+      "kind": "search"
+    },
+    {
+      "name": "Perplexity-User",
+      "owner": "Perplexity",
+      "kind": "agent"
+    },
+    {
+      "name": "Googlebot",
+      "owner": "Google",
+      "kind": "search"
+    },
+    {
+      "name": "Google-Extended",
+      "owner": "Google",
+      "kind": "training"
+    },
+    {
+      "name": "bingbot",
+      "owner": "Microsoft",
+      "kind": "search"
+    },
+    {
+      "name": "Applebot",
+      "owner": "Apple",
+      "kind": "search"
+    },
+    {
+      "name": "Applebot-Extended",
+      "owner": "Apple",
+      "kind": "training"
+    },
+    {
+      "name": "DuckAssistBot",
+      "owner": "DuckDuckGo",
+      "kind": "agent"
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "owner": "Meta",
+      "kind": "training"
+    },
+    {
+      "name": "Amazonbot",
+      "owner": "Amazon",
+      "kind": "training"
+    },
+    {
+      "name": "CCBot",
+      "owner": "Common Crawl",
+      "kind": "training"
+    },
+    {
+      "name": "Bytespider",
+      "owner": "ByteDance",
+      "kind": "training"
+    }
+  ],
+  "cases": [
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: *\nAllow: /",
+      "path": "/",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Claude-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Googlebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "bingbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Applebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "CCBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Bytespider",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "GPTBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/ok/page",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Claude-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Googlebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "bingbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Applebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "CCBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /private\nAllow: /private/ok",
+      "path": "/private/no",
+      "agent": "Bytespider",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: ClaudeBot\nUser-agent: GPTBot\nDisallow: /\n",
+      "path": "/",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Claude-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Googlebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "bingbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Applebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "CCBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf",
+      "agent": "Bytespider",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "GPTBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow: /*.pdf$",
+      "path": "/doc.pdf?x=1",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "OAI-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Claude-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "bingbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Applebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "CCBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: googlebot\nAllow: /\nUser-agent: *\nDisallow: /",
+      "path": "/",
+      "agent": "Bytespider",
+      "allowed": false
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "GPTBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "# comment\nUser-agent: * # all\nDisallow: /a # x\nAllow: /a$",
+      "path": "/a",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "GPTBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "",
+      "path": "/",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "ChatGPT-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "GPTBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Claude-SearchBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Claude-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "ClaudeBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Perplexity-User",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Googlebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Google-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "bingbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Applebot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Applebot-Extended",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "DuckAssistBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Meta-ExternalAgent",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Amazonbot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "CCBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nDisallow: /",
+      "path": "/products",
+      "agent": "Bytespider",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "GPTBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "PerplexityBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: *\nDisallow:\n",
+      "path": "/",
+      "agent": "Bytespider",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "OAI-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "ChatGPT-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "GPTBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Claude-SearchBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Claude-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "ClaudeBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "PerplexityBot",
+      "allowed": false
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Perplexity-User",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Googlebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Google-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "bingbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Applebot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Applebot-Extended",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "DuckAssistBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Meta-ExternalAgent",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Amazonbot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "CCBot",
+      "allowed": true
+    },
+    {
+      "robots": "User-agent: PerplexityBot\nDisallow: /blog\n",
+      "path": "/blog/post",
+      "agent": "Bytespider",
+      "allowed": true
+    }
+  ]
+}

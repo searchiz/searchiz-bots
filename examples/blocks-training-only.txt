@@ -1,0 +1,12 @@
+# Lets AI search and user-triggered fetches in, keeps training crawlers out.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Allow: /

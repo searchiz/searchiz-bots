@@ -1,0 +1,17 @@
+{
+  "name": "searchiz-bots",
+  "version": "1.0.0",
+  "description": "Check which AI crawlers (OpenAI, Anthropic, Perplexity, Google, Apple and more) a site's robots.txt and CDN let in.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "bin": { "searchiz-bots": "bin/searchiz-bots.js" },
+  "files": ["src", "bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["robots.txt", "ai crawlers", "gptbot", "oai-searchbot", "claudebot", "perplexitybot", "geo", "ai search"],
+  "homepage": "https://searchiz.com/tools/ai-bot-checker",
+  "repository": { "type": "git", "url": "git+https://github.com/paulopmtl/searchiz-bots.git" },
+  "license": "MIT",
+  "author": "Searchiz <support@searchiz.com> (https://searchiz.com)"
+}
